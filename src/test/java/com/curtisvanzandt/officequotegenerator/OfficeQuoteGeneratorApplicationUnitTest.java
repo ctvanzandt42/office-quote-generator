@@ -7,8 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class OfficeQuoteGeneratorApplicationUnitTest {
 
     @Test
-    public void contextLoads() {
-        OfficeQuoteGeneratorApplication.main(new String[]{});
-    }
+    public void contextLoads() {}
 
 }

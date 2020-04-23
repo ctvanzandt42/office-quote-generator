@@ -9,3 +9,15 @@ Technologies used:
 <li>PostgreSQL</li>
 <li>Spring Boot</li>
 </ul>
+
+The following VM Arguments are needed: 
+
+```-Dspring.jpa.database=postgres
+   -Dspring.datasource.platform=postgres
+   -Dspring.datasource.url=
+   -Dspring.datasource.username=
+   -Dspring.datasource.password=
+   -Dspring.jpa.show-sql=true
+   -Dspring.jpa.generate-ddl=true
+   -Dspring.jpa.hibernate.ddl-auto=update
+   -Dspring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true```
